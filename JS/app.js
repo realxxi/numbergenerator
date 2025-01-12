@@ -19,9 +19,9 @@ button.addEventListener("click", (e) => {
     }else if(min===max){
         out.textContent ="error "
     }else if(max<min){
-        out.textContent ="error "
+        out.textContent ="error min>max "
     }else if(typeof(min)==String || typeof(max)){
-        out.textContent ="error "
+        out.textContent ="Raqam kiriting"
     }
 })
 
