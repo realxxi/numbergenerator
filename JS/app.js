@@ -7,8 +7,8 @@ const out = document.querySelector("#out")
 // const max = 10
 button.addEventListener("click", (e) => {
     e.preventDefault()
-    const minInput = document.querySelector("#min")
-    const maxInput = document.querySelector("#max")
+    const minInput = document.querySelector("#min") || 1
+    const maxInput = document.querySelector("#max") || 10
     const min = Number(minInput.value)
     const max = Number(maxInput.value)
 
